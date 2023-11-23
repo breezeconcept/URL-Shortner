@@ -93,7 +93,7 @@
                 display: flex;
                 } */
 
-                input[type=text] {
+                input[type=url] {
                 width: 70%;
                 font-size: 18px;
                 padding: 10px;
@@ -146,7 +146,7 @@
                 <div id="input-div">
                     <form id="urlForm" method="post">
                         {% csrf_token %}
-                        <input type="text" class="text-field content-row" placeholder="Enter URL here . . ." id="input-field" name="long_url" required/>
+                        <input type="url" class="text-field content-row" placeholder="Enter URL here . . ." id="input-field" name="long_url" required/>
                         <div class="bot">
                             <button id="shorten" type="submit" class="content-row button">
                                 Shorten URL
